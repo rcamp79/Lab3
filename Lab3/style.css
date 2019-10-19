@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #747474;
+    line-height: 1.6;
+    padding: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    color: rgb(245, 242, 75) !important;
+}
+.jumbotron {
+    background-image: url(Mercedes_Logo_10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+
+    max-width: 1170px; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.brand {
+    text-align: center;
+    
+}
+
+
+.company-info {
+    background:#000;
+    color:#fff;
+    margin: 1em;
+}
+
+.company-info h3, .company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.survey {
+    background:#000;
+    color:#fff;
+    margin: 1em;
+}
+
+.survey {
+    padding: 1em;
+}
+
+.survey h3 {
+    text-align: center;
+}
+
+.survey label {
+    display: block;
+}
+
+.survey form p {
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+@media(min-width: 700px){
+  .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+  }
+}
+
+
+
+
+
+
+

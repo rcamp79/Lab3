@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Rodney Camp
+Lab2b
+The purpose of this lab was to add styling to our survey page by branding the page and
+use CSS techniques we have leanred. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet/less" type="text/css" href="styles.less">
+    <script src="less.js"></script>
+    <title>AcmeCars</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">AcmeMercedes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Browse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link text-white active" href="lab3.html">Survey</a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation End -->
+    <!-- Header -->
+    <!-- <div class="jumbotron">
+        
+      </div> -->
+
+     <!-- <header class="v-header conatiner">
+         <div class="fullscreen-video-wrap">
+             <video src="car.mp4" autoplay="true" loop="true"></video>
+         </div>
+     </header> -->
+    <!-- Header End -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Acme Mercedes</h3>
+                <ul>
+                    <li>123 Main Street</li>
+                    <li>(999) 999-9999</li>
+                    <li>support@acmecars.com</li>
+                </ul>
+            </div>
+            <div class="survey">
+                <h3>Tell us how we did!</h3>
+                <p>For the following areas please use a five point with 1 being not satisfied and 5 being completely
+                    satisfied.</p>
+                <form action="">
+                    <p>1) Please rate our vehicle selection.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>2) Please rate how prompt our slaes person was.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>3) Please rate how knowledgable our staff was.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>4) Please rate how friendly our staff was.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>5) Please rate how honest our staff was.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>6) Please rate your wait time throughout the buying process.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>7) Please rate your overall experience.</p>
+                    <select name="Rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>Please provide additional comments below:</p>
+                    <textarea name="comment" rows="7">Enter text here...</textarea>
+                    <p>
+                        <label for="">Full Name</label>
+                    </p>
+                    <input type="text" name="name">
+                    <p>
+                        <label for="">Phone</label>
+
+                    </p>
+                    <input type="text" name="phone">
+                    <p>
+                        <label for="">Email</label>
+
+                    </p>
+                    <input type="email" name="email">
+
+                </form>
+                <input type="submit" value="Submit"class="button">
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1aa169e922.js"></script>
+    
+</body>
+
+</html>
